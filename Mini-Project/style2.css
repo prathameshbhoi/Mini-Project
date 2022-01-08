@@ -1,0 +1,80 @@
+body{
+        background-color: #dcd6f7;
+      width: 100%;
+      color: #084177;;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 120%;
+  margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    }
+
+h2{
+  font-family: 'Merienda One', cursive;
+  font-size: 2.5rem;
+}
+
+/*hr {
+    border-style: dotted none none;
+    border-color: #3282b8;
+     width: 20%; 
+    border-width: 2px;
+    margin: 5px auto 5px;
+}
+*/
+
+.btn{
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #035aa6;
+  border: solid black;
+  border-radius: 20px;
+  margin-top: 20px;
+  width: 150px;
+  height: 55px;
+  font-size: 23px;
+}
+
+.input-group {
+  margin:0;
+    display: block;
+    color: #3282b8;
+}
+.input-group label {
+  display: inline-block;
+  text-align: left;
+  margin: 0px;
+  font-family: 'Andika New Basic', sans-serif;
+}
+.input-group input {
+  height: 20px;
+  width: auto;
+  padding:0;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+
+}
+
+form, .content {
+  width: 90%;
+  margin-top: 0px;
+  margin-left: 50px;
+  margin-right: 10px;
+  float: left;
+  padding: 20px;
+  border: 2px solid #b2dffb;
+  background: white;
+  border-radius: 10px 10px 10px 10px;
+  display: inline;
+}
+
+.question{
+  color: #151965;
+  font-size: 20px;
+}

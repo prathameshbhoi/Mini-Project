@@ -1,0 +1,93 @@
+body{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
+      width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 120%;
+  margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    }
+
+  #grad {
+        background-image: linear-gradient(to bottom right, #150485, #064acb);
+    }
+h2{
+  font-family: 'Merienda One', cursive;
+  font-size: 4rem;
+}
+.bg-image{
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+  margin-top: 0;
+}
+p{
+  font-family: 'Andika New Basic', sans-serif;
+}
+.btn{
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #035aa6;
+  border: solid black;
+  border-radius: 20px;
+  margin-top: 20px;
+  width: 150px;
+  height: 55px;
+  font-size: 23px;
+}
+
+.btn:hover {
+  background-color: #64dfdf; /* Green */
+  color: #035aa6;
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+    display: inline;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+  font-family: 'Andika New Basic', sans-serif;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+
+}
+
+form, .content {
+      width: 44%;
+  margin-top: 0px;
+  margin-right: 150px;
+  float: right;
+  padding: 20px;
+  border: 2px solid #B0C4DE;
+  background: white;
+  border-radius: 10px 10px 10px 10px;
+  display: inline;
+}
+
+.title{
+  margin-top: 110px;
+  display: block;
+  color: white;
+  width: 50%;
+}
+.signin{
+  margin: auto;
+  height:1000px;
+  width: 625px;
+  position: relative;
+  display: block;
+}

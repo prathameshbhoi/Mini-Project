@@ -1,0 +1,119 @@
+body{
+        background-color: #64dfdf;
+      width: 100%;
+      color: #084177;;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 120%;
+  margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    }
+
+h2{
+  font-family: 'Merienda One', cursive;
+  font-size: 2.5rem;
+}
+hr {
+    border-style: dotted none none;
+    border-color: #3282b8;
+     width: 50%;
+    border-width: 2px;
+    margin: 5px auto 10px;
+}
+a:link{
+  color:rgb(30, 144, 189);
+}
+a:visited {
+  color:brown;
+}
+a:hover {
+  color: rgb(24, 157, 167);
+}
+p{
+  font-family: 'Andika New Basic', sans-serif;
+}
+.btn{
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #035aa6;
+  border: solid black;
+  border-radius: 20px;
+  margin-top: 20px;
+	margin-right: 20px;
+  height: 55px;
+  font-size: 23px;
+}
+.btn:hover {
+  background-color: #0887f7 ; /* Green */
+  color: #032542;
+}
+.input-group {
+  margin:2px;
+    display: block;
+    color: #3282b8;
+}
+.input-group label {
+  display: inline-block;
+  text-align: left;
+  margin: 5px;
+  font-family: 'Andika New Basic', sans-serif;
+}
+.input-group input {
+  height: 20px;
+  width: auto;
+  padding:0;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+
+}
+
+form, .content {
+  width: 45%;
+  margin: 5%;
+  margin-top: 2%;
+  margin-left: 25%;
+//margin-right: 10px;
+  float: left;
+  padding: 20px;
+  border: 2px solid #b2dffb;
+  background: white;
+  border-radius: 10px 10px 10px 10px;
+  display: inline;
+}
+
+.tbl{
+  width: 50%;
+  margin: auto;
+}
+.tables td{
+
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+
+}
+.tables th, .tables td{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.tables tr:nth-child(even){background-color: #d4f3ef;}
+.tables tr :hover {background-color: #ddd;}
+
+.tables th {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+
+}
+.question{
+  color: #084177;
+  font-size: 20px;
+}
